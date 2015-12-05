@@ -46,8 +46,7 @@ module.exports = {
     }),
     new htmlWebpackPlugin({
       title: 'es2015 template',
-      filename: 'index.html',
-      // template: path.resolve(__dirname, 'src/template/index.template.html')
+      filename: 'index.html'
     }),
     new cleanWebpackPlugin([path.join(__dirname, 'dist')]),
   ]
